@@ -1,0 +1,14 @@
+:root {
+  --background: #f8f8f8;
+  --card: #ffffff;
+  --text: #37c2b6a6;
+  --avg: #6fc0b9a6;
+  --subj: #80affc70;
+}
+[data-theme='dark'] {
+  --background: #333333;
+  --card: #6d6a6a;
+  --text: #999b9ea6;
+  --avg: #8889918e;
+  --subj: #85878d6b;
+}

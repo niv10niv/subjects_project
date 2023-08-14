@@ -1,0 +1,36 @@
+.form-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+}
+
+.input {
+  width: 10rem;
+  margin: 0.5rem;
+  padding: 0.5rem;
+
+  &_label {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    font-weight: bold;
+    width: auto;
+    margin: 0.4rem;
+    padding: 0.4rem;
+  }
+
+  & input {
+    font: inherit;
+    display: block;
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+  }
+
+  & &:focus {
+    outline: none;
+    border-color: #4f005f;
+  }
+}
